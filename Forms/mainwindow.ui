@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color:rgba(0,0,0,0.5);
+border: none;
+border-radius:20%;
+}
+
+QStackedWidget{
+background-color:rgba(0,0,0,0.5);
+border: none;
+border-radius:20%;
+}
+
+QMainWindow{
+border-radius:none;
+}
+
+QWidget#centralwidget{
+background-image: url(:/image/main.jpg);
+border-radius:0;
+}
+
+QPushButton{
+background:none;
+border-radius:10px;
+color:#fff;
+font-weight:bold;
+font-size:25px;
+min-height:50;
+border:2px solid #000;
+}
+
+QPushButton:hover{
+background-color:#C1DCCB;
+color:#1847A7;
+qproperty-text: 1;
+}
+
+QPushButton:pressed{
+background-color:#829389;
+}
+
+QLineEdit{
+background-color:rgb(135, 207, 225);
+border-radius:10px;
+color:#000;
+font-weight:bold;
+font-size:25px;
+min-height:40;
+qproperty-alignment: AlignCenter;
+}
+
+QLabel{
+background-color:none;
+border-radius:10px;
+color:#fff;
+font-weight:bold;
+font-size:25px;
+min-height:40;
+max-height:40;
+qproperty-alignment: AlignCenter;
+}
+
+QToolButton{
+background-color:rgb(193, 220, 203);
+border-radius:10px;
+color:#000;
+font-weight:bold;
+font-size:25px;
+min-height:30;
+min-width:30;
+max-width:30;
+max-height:30;
+}
+
+QToolButton:hover{
+background-color: rgb(85, 87, 83);
+}
+
+QListWidget{
+color:#fff;
+font-size:25px;
+padding:10%;
+background-color:rgba(32, 74, 135,0.95);
+}
+
+QTextEdit{
+font-size:35px;
+color:#fff;
+}
+
+QTextBrowser{
+font-size:35px;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
